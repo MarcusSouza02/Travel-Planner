@@ -16,3 +16,7 @@ Esse projeto é uma aplicação web simples que permite aos usuários planejar s
 - **HTML5:** Estrutura da aplicação.
 - **CSS3:** Estilização e layout.
 - **JavaScript:** Funcionalidade dinâmica e interação do usuário.
+
+## Créditos
+
+Esse projeto foi desenvolvido durante a minha participação no evento NLW Journey - Fullstack da Rocketseat
