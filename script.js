@@ -16,7 +16,7 @@ const formatador = (data) => {
 // objeto {}
 const atividade = {  // criei um objeto chamado atividade
   nome: "Almoço",   // tipo da atividade
-  data: new Date("2024-07-08 10:00"),//data e hora do almoco
+  data: new Date("2024-12-12 12:00"),//data e hora do almoco
   finalizada: true
 }
 
@@ -25,13 +25,13 @@ const atividade = {  // criei um objeto chamado atividade
 let atividades = [ //peguei o atividade de cima 
   atividade, 
   {//acrescentei uma atividade nova 
-    nome: 'Academia em grupo',
-    data: new Date("2024-07-09 12:00"),
+    nome: 'Academia',
+    data: new Date("2024-12-11 09:00"),
     finalizada: false
   },
   {//acrescentei uma atividade nova 
-    nome: 'Gamming session',
-    data: new Date("2024-07-09 16:00"),
+    nome: 'Passeio de barco',
+    data: new Date("2024-12-13 14:00"),
     finalizada: true
   },
 ]
@@ -141,11 +141,11 @@ const salvarAtividade = (event) => {
 
 const criarDiasSelecao = () => {
   const dias = [
-    '2024-02-28',
-    '2024-02-29',
-    '2024-03-01',
-    '2024-03-02',
-    '2024-03-03',
+    '2024-12-10',
+    '2024-12-11',
+    '2024-12-12',
+    '2024-12-13',
+    '2024-12-14',
     // define os dias da viagem
   ]
 
